@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Google OAuth credentials/token - never commit these
+scripts/google/client_secret.json
+scripts/google/token.json
