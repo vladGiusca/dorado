@@ -1,19 +1,31 @@
 # dorado
 
 Overlanding Research Agent — a Claude Code pipeline that researches
-overlanding points of interest (POIs) and experiences for a country or
+travel points of interest (POIs) and experiences for a country or
 region, and accumulates them into `data/pois.csv` and a Google Sheet.
+
+Coverage is deliberately broad: overlanding-specific spots (wild camps,
+technical passes, border crossings, hot springs) alongside mainstream
+tourist attractions, natural wonders (waterfalls, caves, canyons),
+cultural/historical sites, and hidden gems worth digging past the
+generic "top 10" listicles for. Total POI counts scale with the
+target's size — roughly 100 for a small country (e.g. Georgia), 350-450
+for a medium one (e.g. Turkey), 550+ for a large one (e.g.
+Indonesia/USA/China).
 
 ## How it works
 
 Ask Claude Code to research a target and it will:
 
-1. Spawn an `overland-scout` subagent per target, which researches the
-   web (iOverlander, Horizons Unlimited, ADVrider, Wikivoyage, official
-   park/border pages, overlanding blogs and forums) for POIs worth an
-   overlander's detour — wild camps, technical passes, border crossings,
-   hot springs, festivals, national parks, and the like.
-2. Validate and append the results to `data/pois.csv` via
+1. Classify the target's size and, for medium/large countries, split it
+   into several geographic sub-regions (e.g. Turkey into "Aegean
+   Coast", "Cappadocia & Central Anatolia", etc.). Spawn one
+   `overland-scout` subagent per sub-region (or a single one for a
+   small, unsplit target), each researching the web — iOverlander,
+   Horizons Unlimited, ADVrider, Wikipedia/Wikivoyage, official
+   tourism/park/border pages, Atlas Obscura, local-language sources and
+   niche blogs — for POIs worth a traveler's detour.
+2. Validate and append the combined results to `data/pois.csv` via
    `scripts/pois.py`, generating stable ids and skipping/merging
    anything already logged for that target.
 3. Push new rows to a Google Sheet via `scripts/sync_sheet.py` — an
