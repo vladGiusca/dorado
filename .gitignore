@@ -4,5 +4,6 @@ __pycache__/
 # Google OAuth credentials/token - never commit these
 scripts/google/client_secret.json
 scripts/google/token.json
+scripts/google/sheet_config.json
 
 *.csv
