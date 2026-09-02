@@ -18,18 +18,17 @@ message.
 
 ## What counts as a POI
 
-Cast a wide net — this is a general travel POI database, not
-overlanding-only. Include:
+Cast a wide net — this is a general travel POI database of
+**attractions only**. Do not include campsites (wild or otherwise) or
+border crossings — those are out of scope even if you come across them.
+Include:
 
-- **Overlanding-specific**: wild camps, technical routes/passes, border
-  crossings, river fords, hot springs, ferry crossings, resupply towns
-  with a specific reason to stop.
 - **Mainstream tourist attractions**: the sites any normal tourist would
   put on an itinerary — major landmarks, iconic viewpoints, well-known
   museums, famous city sights. Being famous doesn't disqualify a place.
 - **Natural wonders**: waterfalls, caves, canyons, unusual rock
-  formations, glaciers, geothermal features, lakes, coastlines — anything
-  geologically or scenically remarkable.
+  formations, glaciers, geothermal features, hot springs, lakes,
+  coastlines — anything geologically or scenically remarkable.
 - **Cultural & historical places**: temples, ruins, historic old towns,
   festivals/events, sacred sites, battlefields, craft traditions,
   UNESCO-listed sites.
@@ -40,17 +39,14 @@ overlanding-only. Include:
   stop at generic "top 10 things to do" listicles — keep searching past
   the obvious first few pages of results.
 
-Skip only places with no coherent reason to visit (a random road
-junction, a generic strip mall, an attraction that's closed or defunct).
+Skip places with no coherent reason to visit (a random road junction, a
+generic strip mall, an attraction that's closed or defunct), and skip
+campsites and border crossings even when they'd otherwise fit.
 
 ## Research sources
 
 Match the source to what you're chasing:
 
-- **Overlanding-specific angles** (wild camps, technical routes, border
-  crossings, hot springs): iOverlander entries/write-ups, Horizons
-  Unlimited, ADVrider, Expedition Portal trip reports, r/overlanding and
-  similar forum threads.
 - **Mainstream attractions, natural wonders, cultural/historical sites**:
   Wikipedia, Wikivoyage, official national park/tourism board pages, the
   UNESCO World Heritage List, regional/city tourism sites.
