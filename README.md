@@ -1,4 +1,4 @@
-# dorado
+# Dorado
 
 Overlanding Research Agent — a Claude Code pipeline that researches
 travel points of interest (POIs) and experiences for a country or
