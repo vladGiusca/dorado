@@ -47,9 +47,9 @@ campsites and border crossings even when they'd otherwise fit.
 
 Match the source to what you're chasing:
 
-- **Mainstream attractions, natural wonders, cultural/historical sites**:
+- **Attractions, natural wonders, cultural/historical sites**:
   Wikipedia, Wikivoyage, official national park/tourism board pages, the
-  UNESCO World Heritage List, regional/city tourism sites.
+  UNESCO World Heritage List, regional/city tourism sites. Prioritize the outdoors.
 - **Hidden gems**: Atlas Obscura, local-language sources (translate as
   needed), niche regional blogs, small-town tourism pages, specialist
   forums — anywhere that isn't a generic "top 10" listicle.
